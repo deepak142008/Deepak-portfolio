@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak Portfolio</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #cdd5e4;
+}
+
+nav {
+    background: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero span {
+    color: #ff8b00;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff8b00;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* SKILLS */
+.skills, .projects, .contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skill-box, .project-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #ff8b00;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.project-btn:hover {
+    background: black;
+    color: white
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+}
+. animate{
+    opacity: 0;
+    transform: translateY(30px)
+    transition  0.7 ease-out ;
+}
+. animate.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+    </style>
+</head>
+<body>
+
+        
+
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2 class="logo">Deepak.</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <h1>Hi, I'm <span>Deepak</span></h1>
+        <p>Frontend Developer (HTML + CSS)</p>
+        <a href="#projects" class=""></a>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-box">
+
+            <div class="card">
+               <img src="what-is-html-3.jpg" height="100px"> 
+                <h3>HTML</h3>
+                <p>Clean & structured webpage building.</p>
+                
+            </div>
+
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.z85KrOj4L9a9KOZA2TQTeAHaHa?w=169&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+                <h3>CSS</h3>
+                <p>Modern layouts, colors & styling.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.LYP7etL4uGSzZ9kGUO5x-wHaDt?w=317&h=175&c=7&r=0&o=7&pid=1.7&rm=3" height="100px">
+                <h3>Responsive Design</h3>
+                <p>Mobile-friendly page layouts.</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- PROJECTS -->
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-box">
+
+        <div class="project-card">
+            <h3>01. Product Landing Page</h3>
+            <p>A clean and modern landing page made with pure HTML & CSS.</p>
+            <a href="#" class=""></a>
+        </div>
+
+        <div class="project-card">
+            <h3>02. Restaurant Website</h3>
+            <p>A multi-page restaurant website with responsive layouts.</p>
+            <a href="#" class=""></a>
+        </div>
+
+        <div class="project-card">
+            <h3>03. Portfolio Website</h3>
+            <p>A simple and elegant portfolio built using basic HTML & CSS.</p>
+            <a href="#" class=""></a>
+        </div>
+
+    </div>
+</section>
+  
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <p><b>Email</b>: <b>sharmad7232@gmail.com</b></p>
+        <p><b>Phone</b>: <b>8826959728</b></p>
+        <p><b>GITHUB</b>: <B>deepak14208</B></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Deepak. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
