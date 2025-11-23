@@ -1,2 +1,3 @@
-# Deepak-portfolio
-This is my portfolio 
+# mini-web design
+This is my portfolio(deepak)
+
